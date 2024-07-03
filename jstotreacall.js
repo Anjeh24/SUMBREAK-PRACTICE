@@ -101,6 +101,15 @@ if (age >= 16) {
     }
 
     for (let k = 12; k <= 4000; k++){
-        if (k % 3 === 0);
+        if (k % 3 === 0)
         console.log(k);
     }
+
+//     B. Get even
+// Print out the numbers that are within the range of 1 - 100
+// Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+
+for (let i = 1; i <= 100; i++){
+    if ([i] % 2 === 0)
+    console.log(i + " " +"<--is an even number");
+}
