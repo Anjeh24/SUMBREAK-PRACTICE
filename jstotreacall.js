@@ -233,5 +233,19 @@ if (intrgr < 100){
 }else(console.log('big number'));
 
 
+// G. Monkey in the Middle
+// Write an if ... else if ... elsestatement:
+// console.log() little number if the number entered is less than 5.
+// If the number entered is more than 10, log  big number.
+// Otherwise, log "monkey".
+
+let numbr = 11;
+if (numbr < 5){
+    console.log('little number');
+}else if(numbr > 10){
+    console.log('big number');
+}else(console.log('monkey'));
+
+
 
 
