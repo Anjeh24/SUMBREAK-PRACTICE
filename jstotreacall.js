@@ -156,3 +156,82 @@ for (i = 0; i < 100; i++){
     newPay += [i] * 2;
     console.log(newPay);//9900
 }
+
+
+
+
+// III. Arrays & Control flow
+
+
+
+// A. Talk about it:
+// What are the things in an array called?  Items
+// Do Arrays guarantee those things will be in order? Yes as in indices
+// What real-life thing could you model with an array? Names
+
+// B. Easy Does It
+// Create an array that contains three quotes and store it in a variable called quotes
+
+let quotes = ["roses are red", "the sky is blue", "light at the end of the tunnel"];
+
+
+// C. Accessing elements
+// Given the following array const randomThings = [1, 10, "Hello", true]
+// How do you access the 1st element in the array?
+// Change the value of "Hello" to "World"
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+
+randomThings = [1, 10, "Hello", true];
+randomThings[0];
+console.log(randomThings[0]);
+randomThings[2] = "World";
+console.log(randomThings[2]);
+
+
+// D. Change values
+// Given the following array 
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// What would you write to access the 3rd element of the array?
+// Change the value of "Github" to "Octocat"
+// Add a new element, "Cloud City" to the array
+
+ourClass[2];
+console.log(ourClass[2]);
+ourClass[4] = "Octocat";
+ourClass.push("Cloud City");
+console.log(ourClass);
+
+
+// E. Mix It Up
+// Note: You don't really need .splice()for these. You could use it, but there are simpler array methods that are more appropriate.
+// Given the following array: const myArray = [5, 10, 500, 20]
+// Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+// Remove the 5from the beginning of the array.
+// Add the string "Bob Marley"to the beginning of the array.
+// Remove the string of your choice from the end of the array.
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+
+const myArray = [5, 10, 500, 20];
+myArray.push("Aegon","klingong");
+console.log(myArray);
+myArray.unshift("Bob Marley");
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
+myArray.reverse();
+console.log(myArray);
+
+// F. Biggie Smalls
+// Create a variable that contains an integer.
+// Write an if ... elsestatement that:
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s  big number if the number is greater than or equal to 100.
+
+let intrgr = 5;
+if (intrgr < 100){
+    console.log('little number');
+}else(console.log('big number'));
+
+
+
+
