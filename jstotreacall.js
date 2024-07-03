@@ -81,3 +81,26 @@ if (age >= 16) {
     console.log("Here are the keys");
 }else (console.log("Sorry you're too young."))
 
+
+// II. Loops
+// Remember: USE letwhen you initialize your for loops!
+// This is GOOD: for(let i = 0; i < 100; i++)
+// This is NO GOOD: for(i = 0; i < 100; i++)
+
+    // A. The basics
+    // Write a loop that will print out all the numbers from 0 to 10, inclusive
+    // Write a loop that will print out all the numbers from 10 up to and including 400
+    // Write a loop that will print out every third number starting with 12 and going no higher than 4000
+    
+    for (let i = 0; i <= 10; i++){
+        console.log(i);
+    }
+
+    for (let j = 10; j <= 400; j++){
+        console.log(j);
+    }
+
+    for (let k = 12; k <= 4000; k++){
+        if (k % 3 === 0);
+        console.log(k);
+    }
