@@ -137,3 +137,16 @@ for (let i = 0; i <= 100; i++){
         console.log(i + " " + "I found a 5. High five");
   } 
 }
+
+
+// D. Savings account
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
+// Check your work! Your bank_account should have $55 in it.
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your bank_account should have $10,100 in it.
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let bank_account = 0;
+for (i = 0; i < numbers.length; i++){
+    bank_account += numbers[i];
+    console.log(bank_account);//55
+}
