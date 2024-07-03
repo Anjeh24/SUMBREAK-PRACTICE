@@ -150,3 +150,9 @@ for (i = 0; i < numbers.length; i++){
     bank_account += numbers[i];
     console.log(bank_account);//55
 }
+
+let newPay = 0;
+for (i = 0; i < 100; i++){
+    newPay += [i] * 2;
+    console.log(newPay);//9900
+}
