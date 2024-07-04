@@ -406,4 +406,21 @@ function getMultipleLengths(theWord){
 }
 console.log(reslt);
 
+// G. maxOfThree
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
+// console.log(maxOfThree(6, 9, 1));
+let numeros = [1, 2, 3];
+let maxNum = [0];
+let largst = maxOfThree(numeros);
 
+function maxOfThree(a, b, c) {
+  for(let i = 0; i < numeros.length; i++){
+    if(numeros[i] > maxNum){
+        maxNum = numeros[i];
+        return maxNum;
+    }
+
+  }
+}
+
+console.log(largst);
