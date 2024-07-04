@@ -371,3 +371,22 @@ console.log(loCase);
 }
 
 console.log(isVowel(b)); // not giving exact results. Would try again later
+
+// E. getTwoLengths
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+// => [4, 13]
+let wrd1 = "Fourth";
+let wrd2 = "July";
+let wrdsArr = [];
+let wrdsLength = getTwoLengths();
+
+function getTwoLengths(wrdOne, wrdTwo){
+    if(wrd1.length > 0 && wrd2.length > 0){
+        return wrdsArr.push(wrd1.length, wrd2.length);
+    }
+
+}
+console.log(wrdsArr);
+console.log(getTwoLengths(wrd1, wrd2));
+
