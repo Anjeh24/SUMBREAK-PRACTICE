@@ -388,5 +388,22 @@ function getTwoLengths(wrdOne, wrdTwo){
 
 }
 console.log(wrdsArr);
-console.log(getTwoLengths(wrd1, wrd2));
+
+// F. getMultipleLengths
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. 
+//The function should return an array of numbers where each number is the length of the corresponding string.
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+// => [5, 4, 2, 2, 4]
+
+let allWrds = ["is", "her", "they"];
+let reslt = getMultipleLengths(allWrds);
+function getMultipleLengths(theWord){
+    for(let i = 0; i < allWrds.length; i++){
+        let newAr = [allWrds[0].length + ", " + allWrds[1].length + ", " + allWrds[2].length];
+        
+ return newAr;
+    }
+}
+console.log(reslt);
+
 
