@@ -349,16 +349,18 @@ console.log(vol);//125
 // console.log(isVowel("a"));
 // => true
 let alphab ="abcdefghijklmnopqrstuvwxyz";
-let vowls = "aeiou";
-let upCase = vowls.toUpperCase();
+//let vowls = "aeiou";  //indices of vowels [0][4][8][14][20]
+let upCase = alphab.toUpperCase();
 console.log(upCase);
-let loCase = vowls.toLowerCase();
+let loCase = alphab.toLowerCase();
 console.log(loCase);
 
   let vowl = isVowel(b);
   function isVowel(x){
     for (var i = 0; i < alphab.length; i++){
-        if(alphab[i] == upCase[i] || alphab[i] == loCase[i]){
+        if(alphab[i] == upCase[0] || upCase[4] || upCase[8] || upCase[14] || upCase[20] || alphab[i] == loCase[0] || [4]
+            || [8] || [14] || [20]
+        ){
             return true;
         }else {
             return false;
