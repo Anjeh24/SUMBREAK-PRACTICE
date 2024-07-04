@@ -462,7 +462,7 @@ let user = {
     name:"Anj",
     email: "look@yahoo.com",
     age: 22,
-    purchased:[]
+    purchased:[],
 };
 
 // B. Update the user
@@ -470,3 +470,34 @@ let user = {
 //  Without changing the original user object, update the emailvalue to a new email address.
   user.email = "looksay@yahoo.com";
 console.log(user);
+
+
+//Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. 
+//Hint: age++
+user.age = 22 + 1 + age++;
+console.log(user);
+
+
+// C. Adding keys and values
+// You have decided to add your user's location to the data that you want to collect.
+// Without changing the original user object, add a new key locationto the object, and give it a value or some-or-other location (a string).
+
+user.location = "Ohio";
+
+console.log(user);
+
+// D. Shopaholic!
+// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// Console.log just the "Merino jodhpurs" from the purchased array.
+
+user.purchased.push('carbohydrate');
+console.log(user);
+
+user.purchased.push("peace of mind");
+console.log(user);
+user.purchased.push("Merino jodhpurs");
+console.log(user.purchased[2]);
+
+
